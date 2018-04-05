@@ -1,0 +1,17 @@
+# UMich Gitlab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/aliceywu
+
+# CAEN
+Host aliceywu
+  HostName login.engin.umich.edu
+  User aliceywu
+  Compression yes
+
+# Home media server
+Host nas
+  HostName 10.180.239.64
+  User aliceywu
+  IdentityFile ~/.ssh/id_rsa
